@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.square-frame {
+    width: 250px; /* Width of the square */
+    height: 250px; /* Height of the square */
+    overflow: hidden;
+    margin-right: 20px;
+    border: 3px solid black; /* Border around the square */
+    flex-shrink: 0;
+}
+
+.square-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the square without distortion */
+}
+
+.section {
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer-links {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 10px 0 0; /* Space above the list */
+    display: flex;
+    justify-content: center; /* Center the list items */
+    gap: 20px; /* Space between list items */
+}
+
+.footer-links li {
+    display: inline; /* Display list items in a row */
+}
+
+.footer-links a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
