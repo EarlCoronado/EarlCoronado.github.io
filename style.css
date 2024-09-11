@@ -1,0 +1,303 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #242834;
+    margin:0;
+}
+
+nav{
+    background-color: #ff6201;
+    padding: 15px 25px;
+   
+    
+}
+
+brand{
+    display: inline-block;
+}
+
+.brand-name{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+    color: white;
+   
+}
+
+.links{
+    float: right;
+    position: relative;
+    top: -40px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0   20px;
+}
+
+.link:hover{
+    color: #242834;
+}
+
+.mainContainer{
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;;
+
+}
+
+.profile {
+    display: flex;
+    gap: 0px;
+    align-items: flex-start;
+    max-width: 900px;
+}
+
+.frame{
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 20px;
+    
+}
+
+.frame img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 50%;
+    
+
+}
+
+.description {
+    margin-top: 150px;
+    flex-grow:1 ;
+    text-align:left;
+    margin: auto; 
+    text-align: justify;
+}
+
+.headline{
+    margin-top: 120px;
+    font-size: 45px;
+    margin-right: -200px;
+}
+
+.description1{
+    font-size:20px;
+    margin-right: -200px;
+}
+
+.aboutMeContainer{
+    text-align: center;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 65px;
+    border: solid black 3px;
+    border-radius: 10px;
+}
+
+.aboutMe{
+   text-align: justify;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-bottom: 35px;
+}
+
+.hobbiesContainer {
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    padding: 20px;
+}
+
+.hobbiesGeneral {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 40px;
+}
+
+.hobbyHeader {  
+    text-align: center;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 300px;
+    height: auto; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.hobby img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.hobby h2 {
+    margin-top: 10px; 
+    font-size: 18px;
+    text-align: center;
+}
+
+.favoritesContainer{
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.favoritesGeneral{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.favoriteHeader{
+    text-align: center;
+    
+}
+
+.favorite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.favorite img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.talentsContainer{
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+.PPbtn{
+
+    background-color: #ff6201;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid black 3px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.logosContainer{
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    padding: 20px;
+
+}
+
+.logoGeneral{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.logoHeader{
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 300px;
+    height: auto; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.logo img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.tshirtContainer{
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    padding: 20px;
+
+}
+
+.tshirtGeneral{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.tshirtHeader{
+    text-align: center;
+}
+
+.tshirt {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 300px;
+    height: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tshirt img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
