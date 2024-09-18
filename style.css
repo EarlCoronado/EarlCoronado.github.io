@@ -105,6 +105,7 @@ brand{
     margin-top: 65px;
     border: solid black 3px;
     border-radius: 10px;
+    
 }
 
 .aboutMe{
@@ -113,6 +114,13 @@ brand{
    margin-right: 50px;
    margin-bottom: 35px;
 }
+
+table{
+    width: 80%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+
 
 .hobbiesContainer {
     background-color: white;
@@ -229,7 +237,7 @@ brand{
     margin-right: 50px;
     border-radius: 10px;
     border: solid black 3px;
-    padding: 20px;
+    padding: 20px;  
 
 }
 
@@ -262,46 +270,6 @@ brand{
     border-radius: 5px;
 }
 
-.tshirtContainer{
-    background-color: white;
-    margin-top: 65px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 10px;
-    border: solid black 3px;
-    padding: 20px;
-
-}
-
-.tshirtGeneral{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-
-.tshirtHeader{
-    text-align: center;
-}
-
-.tshirt {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    width: 300px;
-    height: auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.tshirt img {
-    object-fit: cover;
-    width: 100%;
-    height: 300px;
-    border: 3px solid black;
-    border-radius: 5px;
-}
-
 .homeBtn{
 
     background-color: white;
@@ -313,3 +281,18 @@ brand{
     border-radius: 5px;
     
 }
+
+.previousProject2{
+    background-color: white;
+    margin-top: 65px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: solid black 3px;
+    padding: 20px;  
+}
+
+.pp2label{
+    text-align: center;
+}
+
