@@ -16,7 +16,7 @@
         <a class="link" href="#talents">Talents</a>
         <a class="link" href="previousProject.html">Previous Projects</a>
       </div>
-      <button id="toggleBtn">☾ ☀︎</button>
+      <button id="toggleBtn">☀︎</button>
     </nav>
 
     <div class="container">
@@ -136,18 +136,21 @@
       <a class="PPbtn" href="previousProject.html">Previous Projects</a>
     </div>
 
-<script>
-  const toggleBtn = document.getElementById("toggleBtn");
-  let isLightMode = false;
+    <script>
+      const toggleBtn = document.getElementById("toggleBtn");
+      let isLightMode = false;
 
-  toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("light-mode");
-    isLightMode = !isLightMode;
-    toggleBtn.textContent = isLightMode ? "Dark Mode" : "Light Mode";
-  });
-</script>
-</body>
-</html>
+      toggleBtn.addEventListener("click", () => {
+        document.body.classList.toggle("light-mode");
+        isLightMode = !isLightMode;
+        toggleBtn.textContent = isLightMode ? "☾" : "☀︎";
+      });
+    </script>
+    
 
   </body>
+
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <divclass="elfsight-app-62332893-0876-4b35-88df-f6dfc1921752"data-elfsight-app-lazy></div>
+
 </html>
