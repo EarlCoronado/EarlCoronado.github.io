@@ -27,6 +27,11 @@ nav {
   color: pink;
 }
 
+.link2 {
+  text-decoration: none;
+  color: white;
+}
+
 .link2:hover {
   color: pink;
 }
@@ -210,6 +215,17 @@ table {
   display: inline-block;
 }
 
+.link2_1 {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px auto;
+  display: inline-block;
+}
+
 .PPbtn:hover {
   background-color: pink;
 }
@@ -288,6 +304,35 @@ button:hover {
 
 .pp2label {
   text-align: center;
+}
+
+.API {
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
+  padding: 20px;
+  font-family: Segoe UI, sans-serif;
+  text-align: center;
+}
+
+#art-container img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#fetch-art-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px auto;
+  display: inline-block;
 }
 
 /* Light mode styles */
@@ -389,6 +434,10 @@ body.light-mode .link:hover {
   .ppheader {
     font-size: 30px;
   }
+
+  nav {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -467,6 +516,10 @@ body.light-mode .link:hover {
 
   .ppheader {
     font-size: 30px;
+  }
+
+  nav {
+    display: none;
   }
 }
 

@@ -136,6 +136,12 @@
       <a class="PPbtn" href="previousProject.html">Previous Projects</a>
     </div>
 
+    <div class="API">
+      <h2>Discover New Art</h2>
+      <button id="fetch-art-btn">Show Art</button>
+      <div id="art-container"></div>
+    </div>
+
     <script>
       const toggleBtn = document.getElementById("toggleBtn");
       let isLightMode = false;
@@ -146,11 +152,13 @@
         toggleBtn.textContent = isLightMode ? "☾" : "☀︎";
       });
     </script>
-    
 
+    <script src="script.js"></script>
   </body>
 
   <script src="https://static.elfsight.com/platform/platform.js" async></script>
-  <div class="elfsight-app-62332893-0876-4b35-88df-f6dfc1921752"data-elfsight-app-lazy></div>
-
+  <div
+    class="elfsight-app-62332893-0876-4b35-88df-f6dfc1921752"
+    data-elfsight-app-lazy
+  ></div>
 </html>
