@@ -1,0 +1,618 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  font-size: larger;
+  color: black;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: pink;
+}
+
+.link2 {
+  text-decoration: none;
+  color: white;
+}
+
+.link2:hover {
+  color: pink;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: black 3px solid;
+}
+
+.about {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+.description-container {
+  margin: 20px;
+}
+
+.headline {
+  font-size: 50px;
+  color: white;
+}
+
+.description {
+  text-align: justify;
+  font-size: larger;
+  text-justify: justify;
+  color: white;
+}
+
+.aboutMeContainer {
+  text-align: center;
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 65px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.aboutMe {
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 35px;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+}
+
+.hobbiesContainer {
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
+  padding: 20px;
+}
+
+.hobbiesGeneral {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hobbyHeader {
+  text-align: center;
+}
+
+.hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hobby img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.hobby h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.favoritesContainer {
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: solid 3px black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.favoritesGeneral {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.favoriteHeader {
+  text-align: center;
+}
+
+.favorite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.favorite img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.favorite h2 {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.talentsContainer {
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: solid 3px black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.talentsHeader {
+  text-align: center;
+}
+
+.talentsDes {
+  text-align: center;
+  font-size: larger;
+}
+
+.PPbtn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+.link2_1 {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+.PPbtn:hover {
+  background-color: pink;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+.logosContainer {
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
+  padding: 20px;
+}
+
+.logoGeneral {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.logoHeader {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.homeBtn {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: solid black 3px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.previousProject2 {
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
+  padding: 20px;
+}
+
+.pp2label {
+  text-align: center;
+}
+
+.API {
+  background-color: white;
+  margin-top: 65px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  border: solid black 3px;
+  padding: 20px;
+  font-family: Segoe UI, sans-serif;
+  text-align: center;
+}
+
+#art-container img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+#fetch-art-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+/* Light mode styles */
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+
+body.light-mode nav {
+  background-color: #f0f0f0;
+}
+
+body.light-mode .link {
+  color: black;
+}
+
+body.light-mode .link:hover {
+  color: pink;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: black 3px solid;
+  }
+  .about {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    flex-direction: column;
+  }
+
+  .description {
+    text-align: center;
+    font-size: small;
+  }
+
+  .headline {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .aboutMeLabel {
+    font-size: 30px;
+  }
+
+  .aboutMe {
+    font-size: small;
+  }
+
+  .hobbyHeader {
+    font-size: 30px;
+  }
+
+  .hobby img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .favoriteHeader {
+    font-size: 30px;
+  }
+
+  .favorite img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .talentsHeader {
+    font-size: 30px;
+  }
+
+  .talentsDes {
+    font-size: small;
+  }
+
+  .logoHeader {
+    font-size: 30px;
+  }
+
+  .logo img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .ppheader {
+    font-size: 30px;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: black 3px solid;
+  }
+  .about {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    flex-direction: column;
+  }
+
+  .description {
+    text-align: center;
+    font-size: small;
+  }
+
+  .headline {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .aboutMeLabel {
+    font-size: 30px;
+  }
+
+  .aboutMe {
+    font-size: small;
+  }
+
+  .hobbyHeader {
+    font-size: 30px;
+  }
+
+  .hobby img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .favoriteHeader {
+    font-size: 30px;
+  }
+
+  .favorite img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .talentsHeader {
+    font-size: 30px;
+  }
+
+  .talentsDes {
+    font-size: small;
+  }
+
+  .logo img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .ppheader {
+    font-size: 30px;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: black 3px solid;
+  }
+  .about {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+  }
+
+  .description {
+    text-align: center;
+    font-size: small;
+  }
+
+  .headline {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .aboutMeLabel {
+    font-size: 30px;
+  }
+
+  .aboutMe {
+    font-size: small;
+  }
+
+  .hobbyHeader {
+    font-size: 30px;
+  }
+
+  .hobby img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .favoriteHeader {
+    font-size: 30px;
+  }
+
+  .favorite img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .talentsHeader {
+    font-size: 30px;
+  }
+
+  .talentsDes {
+    font-size: small;
+  }
+
+  .logo img {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .ppheader {
+    font-size: 30px;
+  }
+}
+body.light-mode .aboutMeContainer,
+body.light-mode .hobbiesContainer,
+body.light-mode .favoritesContainer,
+body.light-mode .talentsContainer {
+  background-color: black;
+  color: white;
+}
+
+body.light-mode table {
+  border: 2px solid black;
+}
+
+body.light-mode .headline,
+body.light-mode .description {
+  color: black;
+}
