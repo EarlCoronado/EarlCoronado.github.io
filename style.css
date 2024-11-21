@@ -335,6 +335,10 @@ button:hover {
   display: inline-block;
 }
 
+#fetch-art-btn:hover {
+  background-color: pink;
+}
+
 /* Light mode styles */
 body.light-mode {
   background-color: white;
