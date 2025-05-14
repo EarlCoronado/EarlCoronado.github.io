@@ -1,0 +1,53 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: larger;
+  color: black;
+  background-color: #faebdd;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  padding-right: 50px;
+  color: black;
+}
+
+.profile {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: black 3px solid;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  max-width: 1000px;
+  margin: 50px;
+}
+
+.description-container {
+  margin: 50px;
+}
+
+.headline {
+  font-family: 50px;
+}
+
+.description {
+  text-align: justify;
+  font-size: larger;
+  text-justify: justify;
+}
